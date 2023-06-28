@@ -17,4 +17,7 @@ export class TodoItem {
 
   @Field({ default: false })
   completed!: boolean;
+
+  @Field(TigrisDataTypes.DATE_TIME)
+  usedAt!: Date;
 }
