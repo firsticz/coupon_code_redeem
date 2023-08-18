@@ -169,12 +169,12 @@ const Home: NextPage<Props> = ({ items }) => {
   return (
     <div>
       <Head>
-        <title>Todo App using Next.js + Tigris</title>
+        <title>Todo App</title>
         <meta name="description" content="Tigris app tutorial" />
       </Head>
 
       <div className={styles.container}>
-        <h2>Sample Todo app using Next.js and Tigris</h2>
+        <h2>List อย่าหรอย แบบ หรอยๆ</h2>
 
         {/* Search Header */}
         <div className={styles.searchHeader}>
@@ -235,14 +235,6 @@ const Home: NextPage<Props> = ({ items }) => {
           )}
         </div>
 
-        <a href="https://tigrisdata.com/">
-          <Image
-            src="/tigris_logo.svg"
-            alt="Tigris Logo"
-            width={100}
-            height={100}
-          />
-        </a>
       </div>
     </div>
   );
